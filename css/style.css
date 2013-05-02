@@ -16,6 +16,13 @@ text-transform: uppercase;
 text-decoration: none;
 font-size: 0.458333333em /* 11px / 24px */;
 }
+img,
+embed,
+object,
+video {
+max-width: 100%;
+}
+
 #page {
     margin: 36px auto;
     width: 90%;
@@ -50,4 +57,11 @@ width: 14.556962%; /* 69px / 474px */
 .recent-entries {
     margin: 0 auto;
     width: 69.7885196%; /* 231px / 331px */
+}
+
+.figure {
+float: right;
+margin-bottom: 0.5em;
+margin-left: 2.53164557%; /* 12px / 474px */
+width: 48.7341772%; /* 231px / 474px */
 }
